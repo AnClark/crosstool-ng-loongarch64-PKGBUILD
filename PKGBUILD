@@ -8,7 +8,7 @@ arch=('x86_64')
 url='https://crosstool-ng.github.io/'
 license=('GPL' 'LGPL')
 groups=('loongarch')
-depends=('automake' 'autoconf' 'bison' 'flex' 'help2man' 'unzip')
+depends=('automake' 'autoconf' 'bison' 'flex' 'help2man' 'unzip' 'wget')
 options=('!emptydirs' '!strip')
 source=('git+https://github.com/jiegec/crosstool-ng.git#branch=loongarch'
         'git+https://github.com/jiegec/ct-ng-loongarch64')
