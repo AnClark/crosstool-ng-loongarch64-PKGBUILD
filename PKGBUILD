@@ -1,4 +1,4 @@
-# Maintainer: Xiaotian Wu <yetist@gmail.com>
+# Maintainer: AnClark Liu <anclarkliu@outlook.com>
 
 pkgname=crossbuild-ng-loongarch64
 pkgver=1.25.0
