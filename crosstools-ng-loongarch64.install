@@ -1,0 +1,20 @@
+post_install() {
+  echo ======================================================================================
+  echo
+  echo Crossbuild-ng patched for LoongArch64 has been installed.
+  echo
+  echo Before starting, remember to copy this config file to your work directory:
+  echo "    /opt/crosstools-ng-loongarch64/ct-ng-loongarch64/.config"
+  echo "(or entire directory)"
+  echo
+  echo Executable is called ct-ng-loongarch64.
+  echo
+  echo To save downloaded files, modify this config entry:
+  echo "    CT_LOCAL_TARBALLS_DIR (Default value is $\{HOME\}/src)"
+  echo
+  echo ======================================================================================
+}
+
+post_upgrade(){
+  post_install
+}
