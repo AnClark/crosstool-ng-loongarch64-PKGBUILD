@@ -9,8 +9,10 @@ post_install() {
   echo
   echo Executable is called ct-ng-loongarch64.
   echo
-  echo To save downloaded files, modify this config entry:
-  echo "    CT_LOCAL_TARBALLS_DIR (Default value is $\{HOME\}/src)"
+  echo Modify the following config entries to match what you need:
+  echo "  * CT_LOCAL_TARBALLS_DIR: Where to download src packages (Default: ~/src)"
+  echo "  * CT_PREFIX_DIR:         Where to put/install built files"
+  echo "                           (Default: ~/x-tools/)"
   echo
   echo ======================================================================================
 }
