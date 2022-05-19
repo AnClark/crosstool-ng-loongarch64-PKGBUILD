@@ -1,6 +1,6 @@
 # Maintainer: AnClark Liu <anclarkliu@outlook.com>
 
-pkgname=crossbuild-ng-loongarch64
+pkgname=crosstool-ng-loongarch64
 pkgver=1.25.0
 pkgrel=1
 pkgdesc='Cross compiler builder, patched for LoongArch64'
@@ -14,8 +14,8 @@ source=('git+https://github.com/jiegec/crosstool-ng.git#branch=loongarch'
         'git+https://github.com/jiegec/ct-ng-loongarch64')
 sha256sums=('SKIP'
             'SKIP')
-_prefix_dir=/opt/crosstools-ng-loongarch64/
-install=crosstools-ng-loongarch64.install
+_prefix_dir=/opt/crosstool-ng-loongarch64/
+install=crosstool-ng-loongarch64.install
 
 build() {
   cd crosstool-ng
